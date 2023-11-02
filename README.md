@@ -67,13 +67,13 @@ pip install openai[datalib]
 The library needs to be configured with your OpenAI account's private API key which is available on our [developer platform](https://platform.openai.com/account/api-keys). Either set it as the `OPENAI_API_KEY` environment variable before using the library:
 
 ```bash
-export OPENAI_API_KEY='sk-...'
+export OPENAI_API_KEY='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'
 ```
 
 Or set `openai.api_key` to its value:
 
 ```python
-openai.api_key = "sk-..."
+openai.api_key = "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"
 ```
 
 Examples of how to use this library to accomplish various tasks can be found in the [OpenAI Cookbook](https://github.com/openai/openai-cookbook/). It contains code examples for: classification using fine-tuning, clustering, code search, customizing embeddings, question answering from a corpus of documents. recommendations, visualization of embeddings, and more.
